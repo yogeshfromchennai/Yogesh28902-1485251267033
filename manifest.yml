@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: Yogesh28902
+  host: yogesh28902
+  disk_quota: 1024M
+  services:
+  - Cloudant NoSQL DB-d4
+  - Auto-Scaling-ar
